@@ -29,7 +29,7 @@ void PrintArray(int[] array)
         }
     }
 }
-
+// поиск чисел > 0
 int NumbersMorethanZero(int[] array)
 {
     int count = 0;
