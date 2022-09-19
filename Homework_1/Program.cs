@@ -48,10 +48,10 @@ try
 {
     Console.Write($"Введи число М(количество чисел): ");
     int x = Convert.ToInt32(Console.ReadLine());
-    int[] Numbers = InputNumbers(x);
+    int[] numbers = InputNumbers(x);
     Console.Write($"Наш массив: ");
-    PrintArray(Numbers);
-    int result = NumbersMorethanZero(Numbers);
+    PrintArray(numbers);
+    int result = NumbersMorethanZero(numbers);
     Console.WriteLine("");
     Console.WriteLine($"Ввведено чисел больше 0 : {result} ");
 }
